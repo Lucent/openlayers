@@ -6,7 +6,7 @@ sys.path.append("../tools")
 import jsmin, mergejs
 
 sourceDirectory = "../lib"
-configFilename = "full.cfg"
+configFilename = "lite.cfg"
 outputFilename = "OpenLayers.js"
 
 if len(sys.argv) > 1:
